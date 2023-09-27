@@ -4,6 +4,8 @@ import React, { useState } from "react"
 const Maths = () => {
   const [count, setCount] = useState(0)
 
+  const changeCount = amount => setCount(previousCount => previousCount + 1)
+
   return (
     <React.Fragment>
       <h2>{count}</h2>
