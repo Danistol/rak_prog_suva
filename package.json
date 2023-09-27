@@ -2,8 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "https":"https://github.com/Danistol/rak_prog_suva.git",
+  "https": "https://github.com/Danistol/rak_prog_suva.git",
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.11",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
