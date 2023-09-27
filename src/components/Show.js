@@ -1,7 +1,7 @@
 import React from "react"
 
-const Show = () => {
-  return <div>{show == true ? <h2>Showing</h2> : <h2>Not Showing</h2>}</div>
+const Show = ({ show }) => {
+  return <div> {show ? <h2>Showing</h2> : <h2>Not showing</h2>}</div>
 }
 
 export default Show

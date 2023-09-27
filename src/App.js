@@ -1,9 +1,9 @@
-import logo from "./logo.svg"
+import { useState } from "react"
 import "./App.css"
-import Hello from "./components/Hello"
-import Maths from "./components/Maths"
 import Toggle from "./components/Toggle"
 import Show from "./components/Show"
+import Maths from "./components/Maths"
+import MyForm from "./components/MyFrom"
 
 function App() {
   const [show, setShow] = useState(true)
@@ -12,7 +12,9 @@ function App() {
 
   return (
     <div className="Container">
-      <h1>HI</h1>
+      <h1>Hello Human</h1>
+      <MyForm />
+      <Maths />
       <Show show={show} />
       <Toggle toggleShow={toggleShow} />
     </div>
